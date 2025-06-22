@@ -1,5 +1,12 @@
 # Example application code for the "Architecture Patterns with Python" book
 
+>## Downstream Fixes
+>I, [evokateur](https://github.com/evokateur), will push fixes that make the tests
+>pass in chapter branches here.
+>
+>I will keep the version of Python at 3.8. This will be good for sanity checks as I'm
+>[coding along](https://github.com/evokateur/python-architecture) at 3.13
+
 ## Chapters
 
 Each chapter has its own branch which contains all the commits for that chapter,
@@ -33,11 +40,20 @@ make up
 make all # builds, brings containers up, runs tests
 ```
 
-## Creating a local virtualenv (optional)
+## Creating a local virtualenv (~optional~ recommended)
 
 ```sh
 python3.8 -m venv .venv && source .venv/bin/activate # or however you like to create virtualenvs
+```
 
+>_(I like to do it like this)_
+>```
+>pyenv shell 3.8
+>python -m venv .venv
+>source .venv/bin/activate
+>```
+
+```
 # for chapter 1
 pip install pytest 
 

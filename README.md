@@ -1,8 +1,8 @@
 # Example application code for the "Architecture Patterns with Python" book
 
 >## Downstream Fixes
->I, [evokateur](https://github.com/evokateur), will push fixes that make the tests
->pass in chapter branches here.
+>I, [evokateur](https://github.com/evokateur), will push fixes (mostly having to do
+>with SqlAlchemy 2.0) that make the tests pass in chapter branches here.
 >
 >I will keep the version of Python at 3.8. This will be good for sanity checks as I'm
 >[coding along](https://github.com/evokateur/python-architecture) at 3.13

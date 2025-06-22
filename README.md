@@ -6,6 +6,10 @@
 >
 >I will keep the version of Python at 3.8. This will be good for sanity checks as I'm
 >[coding along](https://github.com/evokateur/python-architecture) at 3.13
+>
+>### Fixed:
+>
+> - https://github.com/cosmicpython/code/compare/chapter_02_repository...evokateur:python-architecture-code:chapter_02_repository
 
 ## Chapters
 

@@ -9,8 +9,8 @@
 >
 >### Fixed:
 >
-> - [chapter_02_repository](https://github.com/cosmicpython/code/compare/chapter_02_repository...evokateur:python-architecture-code:chapter_02_repository)
-> - [chapter_04_service_layer](https://github.com/cosmicpython/code/compare/chapter_04_service_layer...evokateur:python-architecture-code:chapter_04_service_layer)
+> - [chapter_02_repository](https://github.com/evokateur/python-architecture-code/tree/chapter_02_repository)
+> - [chapter_04_service_layer](https://github.com/evokateur/python-architecture-code/tree/chapter_04_service_layer)
 
 ## Chapters
 

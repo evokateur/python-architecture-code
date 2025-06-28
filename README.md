@@ -10,9 +10,9 @@
 >
 >### Tests Passing Branches
 >
-> - [chapter_02_repository](https://github.com/evokateur/python-architecture-code/tree/chapter_02_repository)
-> - [chapter_04_service_layer](https://github.com/evokateur/python-architecture-code/tree/chapter_04_service_layer)
-> - [master](https://github.com/evokateur/python-architecture-code) (SqlAlchemy pinned to <2 upstream)
+> - [chapter_02_repository](https://github.com/evokateur/python-architecture-code/tree/chapter_02_repository) (works with SqlAlchemy 2.0)
+> - [chapter_04_service_layer](https://github.com/evokateur/python-architecture-code/tree/chapter_04_service_layer) (ditto)
+> - [master](https://github.com/evokateur/python-architecture-code) (SqlAlchemy pinned to <2 upstream, aha.)
 
 ## Chapters
 

@@ -13,7 +13,6 @@
 > - [chapter_02_repository](https://github.com/evokateur/python-architecture-code/tree/chapter_02_repository)
 > - [chapter_04_service_layer](https://github.com/evokateur/python-architecture-code/tree/chapter_04_service_layer)
 > - [master](https://github.com/evokateur/python-architecture-code) (SqlAlchemy pinned to <2 upstream)
-(fixed upstream)
 
 ## Chapters
 

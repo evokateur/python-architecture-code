@@ -1,16 +1,19 @@
 # Example application code for the "Architecture Patterns with Python" book
 
 >## Downstream Fixes
+>
 >I, [evokateur](https://github.com/evokateur), will push fixes (mostly having to do
 >with SqlAlchemy 2.0) that make the tests pass in chapter branches here.
 >
 >I will keep the version of Python at 3.8. This will be good for sanity checks as I'm
 >[coding along](https://github.com/evokateur/python-architecture) at 3.13
 >
->### Fixed:
+>### Tests Passing Branches
 >
 > - [chapter_02_repository](https://github.com/evokateur/python-architecture-code/tree/chapter_02_repository)
 > - [chapter_04_service_layer](https://github.com/evokateur/python-architecture-code/tree/chapter_04_service_layer)
+> - [master](https://github.com/evokateur/python-architecture-code) (SqlAlchemy pinned to <2 upstream)
+(fixed upstream)
 
 ## Chapters
 
@@ -19,20 +22,17 @@ so it has the state that corresponds to the _end_ of that chapter.
 If you want to try and code along with a chapter,
 you'll want to check out the branch for the previous chapter.
 
-https://github.com/cosmicpython/code/branches/all
-
+<https://github.com/cosmicpython/code/branches/all>
 
 ## Exercises
 
 Branches for the exercises follow the convention `{chapter_name}_exercise`,
-eg https://github.com/cosmicpython/code/tree/chapter_04_service_layer_exercise
-
+eg <https://github.com/cosmicpython/code/tree/chapter_04_service_layer_exercise>
 
 ## Requirements
 
-* docker with docker-compose
-* for chapters 1 and 2, and optionally for the rest: a local python3.8 virtualenv
-
+- docker with docker-compose
+- for chapters 1 and 2, and optionally for the rest: a local python3.8 virtualenv
 
 ## Building the containers
 
@@ -52,6 +52,7 @@ python3.8 -m venv .venv && source .venv/bin/activate # or however you like to cr
 ```
 
 >_(I like to do it like this)_
+>
 >```
 >pyenv shell 3.8
 >python -m venv .venv
@@ -75,7 +76,6 @@ pip install -e src/
 
 <!-- TODO: use a make pipinstall command -->
 
-
 ## Running the tests
 
 ```sh
@@ -94,4 +94,3 @@ pytest tests/e2e
 ## Makefile
 
 There are more useful commands in the makefile, have a look and try them out.
-

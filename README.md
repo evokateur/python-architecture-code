@@ -6,7 +6,7 @@
 >with SqlAlchemy 2.0) that make the tests pass in chapter branches here.
 >
 >I will keep the version of Python at 3.8. This will be good for sanity checks as I'm
->[coding along](https://github.com/evokateur/python-architecture) at 3.13
+>[coding along](https://github.com/evokateur/python-architecture) at ~3.13~ 3.12
 >
 >### Tests Passing Branches
 >
